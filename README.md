@@ -36,13 +36,16 @@ ipynbファイル内で、`BEARER_TOKEN=`をベタ打ちで直接入れれば動
 [project]
 name = "forcoltweet"
 version = "0.1.0"
-description = "Twitter data collection"
+description = "Add your description here"
+readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
-    "requests>=2.25.1",
-    "pandas>=1.3.0",
-    "tqdm>=4.60.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "tqdm>=4.67.1",
 ]
 ```
 
